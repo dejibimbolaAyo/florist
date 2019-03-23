@@ -1,0 +1,1 @@
+<script src="{{asset('assets/dashboard/js/bootstrap.min.js')}}"></script>
