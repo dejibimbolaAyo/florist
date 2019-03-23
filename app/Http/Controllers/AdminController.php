@@ -34,6 +34,19 @@ class AdminController extends Controller
         return view('dashboard.admin.orders')->with('orders', $orders);
     }
 
+    public function rejectOrder(Request $request, $order_id = null)
+    {
+        # code...
+        if($order_id == null) return false;
+
+        $order = Order::find($order_id)->delete();
+        $orders = Order::all();
+
+        $request->session()->flash('alert-success', "Order with OrderID ".$order_id. " rejected.");
+        return redirect('admin/orders')->with('orders', $orders);
+
+    }
+
     public function products()
     {
         # code...

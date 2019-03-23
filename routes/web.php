@@ -15,6 +15,7 @@ Route::get('admin/register', 'AdminController@getRegistration');
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::get('dashboard', 'AdminController@index');
     Route::get('orders', 'AdminController@orders');
+    Route::get('orders/delete/{order_id}', 'AdminController@rejectOrder');
     Route::get('products', 'AdminController@products');
     Route::get('products/create', 'AdminController@getCreateProduct');
     Route::post('products/create', 'AdminController@createProduct');
