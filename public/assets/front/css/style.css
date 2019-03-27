@@ -665,7 +665,7 @@ a.hover-2:after {
 /*--/blog-grid-info--*/
 
 .blog-grid-info .card h5.card-title {
-    font-size: 1. 2em;
+    font-size: 1.2em;
 }
 
 .blog-grid-info .card-body {
@@ -1627,7 +1627,7 @@ p.copy-right-w3ls {
     height: 147px;
     background: #fbb034;
     border-radius: 3px;
-    margin: 20;
+    margin: 20em;
     display: inline-flex;
 }
 

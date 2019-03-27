@@ -1,7 +1,7 @@
 <div class="menu-section">
     <input type="checkbox" name="mobile-nav" id="mobile-nav" class="gaadiexp-check" onchange="this.blur()">
     <label for="mobile-nav" class="gaadiexp white" tabindex="0"><span></span></label>
-    <nav role="navigation" class="header-nav">
+    <nav class="header-nav">
         <div class="fixed-nav">
             <a class="navbar-brand" style="margin-left:40px" href="#"></a>
 
@@ -34,4 +34,3 @@
         </div>
     </nav>
 </div>
-</section>

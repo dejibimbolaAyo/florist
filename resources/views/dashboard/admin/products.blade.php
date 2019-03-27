@@ -26,16 +26,16 @@
                         <td>{{$product->name}}</td>
                         <td>{{$product->description}}</td>
                         <td>
-                            <img class="img-fluid" src="{{headless_url($product->picture_url)}}" style="height: 30px !important; width: auto" >
+                            <img class="img-fluid" src="{{headless_url($product->picture_url)}}" style="height: 30px !important; width: auto" alt="{{$product->name}}">
                         </td>
                         <td>${{$product->price}}</td>
                         <td>
                             <div class="btn-group">
-                                <a href="{{headless_url('admin/products/edit/'.$product->id)}}">
-                                    <button class="btn btn-info">Edit</button>
+                                <a class="btn btn-info" href="{{headless_url('admin/products/edit/'.$product->id)}}">
+                                    Edit
                                 </a>
-                                <a href="{{headless_url('admin/products/delete/'.$product->id)}}">
-                                    <button class="btn btn-danger">Delete</button>
+                                <a class="btn btn-danger" href="{{headless_url('admin/products/delete/'.$product->id)}}">
+                                    Delete
                                 </a>
                             </div>
                         </td>

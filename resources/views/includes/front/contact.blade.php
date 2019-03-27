@@ -27,14 +27,14 @@
                                             First name
                                         </label>
                                         <input class="form-control" type="text" placeholder="First name" name="first_name"
-                                            required="true">
+                                            required>
                                     </div>
                                     <div class="col-md-5">
                                         <label>
                                             Last name
                                         </label>
                                         <input class="form-control" type="text" placeholder="Last name" name="last_name"
-                                            required="">
+                                            required>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                             Email
                                         </label>
                                         <input class="form-control" type="email" placeholder="example@email.com" name="email"
-                                            required="true">
+                                            required>
                                     </div>
                                 </div>
                             </div>

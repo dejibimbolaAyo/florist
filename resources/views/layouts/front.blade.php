@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ app()->getLocale() }}">
     <head>
         <title>Floral - @yield('title')</title>
         @include('includes.front.head')
-        @include('includes.front.modal')
     </head>
     <body>
         <div class="container" style="position:absolute; left: 10%; text-align: center">

@@ -1,8 +1,7 @@
-<title>Modern an Admin Panel Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Floral Dashboard" />
-<script type="application/x-javascript">
+<script>
     addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
@@ -14,15 +13,15 @@
 <!-- jQuery -->
 <script src="{{asset('assets/dashboard/js/jquery.min.js')}}"></script>
 <!-- Bootstrap Core CSS -->
-<link href="{{asset('assets/dashboard/css/bootstrap.min.css')}}" rel='stylesheet' type='text/css' />
+<link href="{{asset('assets/dashboard/css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
 <link href="{{asset('assets/dashboard/css/style.css')}}" rel='stylesheet' type='text/css' />
 <!-- Graph CSS -->
 <link href="{{asset('assets/dashboard/css/lines.css')}}" rel='stylesheet' type='text/css' />
 <link href="{{asset('assets/dashboard/css/font-awesome.css')}}" rel="stylesheet">
-<!----webfonts--->
+<!--webfonts-->
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
-<!---//webfonts--->
+<!--webfonts-->
 <!-- Nav CSS -->
 <link href="{{asset('assets/dashboard/css/custom.css')}}" rel="stylesheet">
 <!-- Metis Menu Plugin JavaScript -->

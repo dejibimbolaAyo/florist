@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ app()->getLocale() }}">
 
 <head>
     <title>Floral - @yield('title')</title>
@@ -9,7 +9,7 @@
 <body>
     <div id="wrapper">
         <!-- Nav -->
-        <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <nav class="top1 navbar navbar-default navbar-static-top" style="margin-bottom: 0">
             @include('includes.dashboard.navbar')
             @include('includes.dashboard.sidemenu')
         </nav>

@@ -1,4 +1,4 @@
-<div class="navbar-default sidebar" role="navigation">
+<div class="navbar-default sidebar">
     <div class="sidebar-nav navbar-collapse">
         <ul class="nav" id="side-menu">
             <li>
@@ -6,8 +6,11 @@
                         class="fa fa-dashboard fa-fw nav_icon"></i>Dashboard</a>
             </li>
             <li>
-                <a href="{{headless_url('admin/products')}}"><i class="fa fa-laptop nav_icon"></i>Products</a>
+                <a href="#"><i class="fa fa-laptop nav_icon"></i>Products</a>
                 <ul class="nav nav-second-level">
+                    <li>
+                        <a href="{{headless_url('admin/products')}}">Products</a>
+                    </li>
                     <li>
                         <a href="{{headless_url('admin/products/create')}}">Create product</a>
                     </li>

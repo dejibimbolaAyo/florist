@@ -25,14 +25,14 @@
                                 <p class="card-text">{{$product->description}}
                                 </p>
                                 <div class="btn-group">
-                                    <a class="image-zoom" href="{{headless_url($product->picture_url)}}" data-gal="prettyPhoto[gallery]">
-                                        <button class="btn btn-success">Open</button>
+                                    <a class="image-zoom btn btn-success" href="{{headless_url($product->picture_url)}}" data-gal="prettyPhoto[gallery]">
+                                        Open
                                     </a>
                                     <button class="btn btn-info" disabled>
                                         <span class="price">${{$product->price}}</span>
                                     </button>
-                                    <a href="{{headless_url('user/products/place-order/'.$product->id)}}">
-                                        <button class="btn btn-warning">Order</button>
+                                    <a class="btn btn-warning" href="{{headless_url('user/products/place-order/'.$product->id)}}">
+                                        Order
                                     </a>
                                 </div>
                             </div>

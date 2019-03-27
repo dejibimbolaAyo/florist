@@ -30,8 +30,8 @@
                         <td>
                             <div class="btn-group">
                                 <button class="btn btn-info">Fulfill Order</button>
-                                <a href="{{headless_url('admin/orders/delete/'.$order->id)}}">
-                                  <button class="btn btn-danger">Reject Order</button>
+                                <a  class="btn btn-danger" href="{{headless_url('admin/orders/delete/'.$order->id)}}">
+                                  Reject Order
                                 </a>
                             </div>
                         </td>
